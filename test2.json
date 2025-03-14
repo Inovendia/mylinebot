@@ -1,0 +1,18 @@
+{
+  "type": "flex",
+  "altText": "This is a Flex Message2",
+  "contents": {
+      "type": "bubble",
+      "hero": {
+          "type": "image",
+          "url": "https://drive.usercontent.google.com/download?id=1fzaIOI4j6JasC-RR2k0TJ4l5omrcyU1f&export=view&authuser=0",
+          "size": "md",
+          "aspectRatio": "16:9",
+          "aspectMode": "cover",
+          "action": {
+              "type": "postback",
+              "data": "最後のボタンがタップされました"
+        }
+    }
+  }
+}

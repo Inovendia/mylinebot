@@ -1,0 +1,33 @@
+{
+  "type": "template",
+  "altText": "this is a image carousel template",
+  "template": {
+    "type": "image_carousel",
+    "columns": [
+      {
+      "imageUrl": "https://drive.usercontent.google.com/download?id=1YHz70GWcwFNfEgIl7bmTSGA4JqaYScaK",
+      "action": {
+        "type": "uri",
+        "label": "View X",
+        "uri": "https://x.com/tower_man_kun"
+        }
+      },
+      {
+      "imageUrl": "https://drive.usercontent.google.com/download?id=1ElCgc4nvGe3p7AbZeUVzRkr4dQwH1DAn",
+      "action": {
+        "type": "uri",
+        "label": "View blog",
+        "uri": "https://www.sumu-lab.com/archives/author/tower.man.kun/"
+        }
+      },
+      {
+      "imageUrl": "https://drive.usercontent.google.com/download?id=1bM3yyI3ontgBIyEicG9OtrcTymW32N6I",
+      "action": {
+        "type": "uri",
+        "label": "View insta",
+        "uri": "https://www.instagram.com/tower_man_sapporo/"
+        }
+      }
+    ]
+  }
+}
