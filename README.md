@@ -40,15 +40,19 @@ LINE_CHANNEL_ACCESS_TOKEN: LINEチャネルのアクセストークン
 ※これらは os.getenv() を用いてプログラム内で読み込まれます。
 
 
-```
+
 📁 ファイル構成
 ```
 .
-├── lambda_handler.py       # Lambda用のメイン処理
-├── test.json               # Flexメッセージのテンプレート
-├── carousel.json           # イメージカルーセルテンプレート
-├── requirements.txt        # 必要なライブラリ一覧
-├── README.md               # このファイル
+├── README.md
+├── carousel.json
+├── carousel_flex.json
+├── flex_config.py
+├── mylinebot.py
+├── requirements.txt
+├── rich_menu.json
+├── template.json
+└── test2.json
 ```
 🌐 動作環境
 Python 3.x
@@ -60,10 +64,8 @@ LINE Messaging API
 📬 補足情報
 Flexメッセージの作成には、LINE Flex Message Simulator を使うと便利です。
 
-このBotは、FlaskやFastAPIなどでも動作するように変更可能です。
-
 ✅ 今後の改善案（任意）
-リッチメニュー対応
+UI/UXの精査
 
 ユーザー状態の保存（例：DynamoDB）
 
