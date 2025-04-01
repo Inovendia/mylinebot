@@ -15,16 +15,12 @@
 
 ##システム構成図
 
-
+![Image](https://github.com/user-attachments/assets/31d680fe-b298-48ed-9918-a39f243aa3b1)
 
 ##使用イメージ
 
 <div style="display: flex; gap: 10px;">
-  <img src="IMG_4589.PNG" width="25%">
-  <img src="IMG_4590.PNG" width="25%">
-  <img src="IMG_4591.PNG" width="25%">
-  <img src="IMG_4592.PNG" width="25%">
-  <img src="IMG_4593.PNG" width="25%">
+
 </div>
 
 
